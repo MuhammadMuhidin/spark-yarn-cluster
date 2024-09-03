@@ -40,7 +40,7 @@ RUN curl https://archive.apache.org/dist/hadoop/common/hadoop-${HADOOP_VERSION}/
 FROM spark-base as pyspark
 
 # Install python deps
-COPY requirements/requirements.txt .
+COPY requirements/requirements-spark.txt .
 RUN pip3 install -r requirements.txt
 
 # Set JAVA_HOME environment variable
