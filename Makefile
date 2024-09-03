@@ -44,7 +44,7 @@ submit-test-yarn:
 	@docker exec spark-yarn-master spark-submit --master yarn --deploy-mode cluster ./spark-scripts/spark-test.py
 
 submit-test-airflow:
-	@docker exec airflow-webserver spark-submit --master spark://curly-telegram-949rgxj7rvwh775p-7077.app.github.dev:7077 ./spark-scripts/spark-test.py
+	@docker exec airflow-webserver spark-submit ./spark-scripts/spark-test.py
 
 
 

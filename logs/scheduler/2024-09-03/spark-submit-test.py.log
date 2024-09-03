@@ -725,3 +725,87 @@
 [2024-09-03T14:42:08.033+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:42:08.033+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2024-09-03T14:42:08.044+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:42:08.044+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
 [2024-09-03T14:42:08.062+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.072 seconds
+[2024-09-03T14:42:38.150+0000] {processor.py:157} INFO - Started process (PID=615) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:42:38.153+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:42:38.155+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:42:38.155+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:42:38.164+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:42:38.189+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:42:38.188+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:42:38.212+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:42:38.212+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:42:38.247+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.103 seconds
+[2024-09-03T14:43:08.315+0000] {processor.py:157} INFO - Started process (PID=623) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:43:08.319+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:43:08.323+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:43:08.322+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:43:08.338+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:43:08.356+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:43:08.356+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:43:08.365+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:43:08.365+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:43:08.383+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.073 seconds
+[2024-09-03T14:43:38.428+0000] {processor.py:157} INFO - Started process (PID=631) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:43:38.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:43:38.434+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:43:38.434+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:43:38.446+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:43:38.490+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:43:38.489+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:43:38.509+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:43:38.509+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:43:38.548+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.125 seconds
+[2024-09-03T14:44:08.625+0000] {processor.py:157} INFO - Started process (PID=639) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:44:08.628+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:44:08.629+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:44:08.629+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:44:08.636+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:44:08.657+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:44:08.656+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:44:08.664+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:44:08.664+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:44:08.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.056 seconds
+[2024-09-03T14:44:38.714+0000] {processor.py:157} INFO - Started process (PID=647) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:44:38.719+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:44:38.723+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:44:38.722+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:44:38.737+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:44:38.761+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:44:38.761+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:44:38.769+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:44:38.769+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:44:38.790+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.082 seconds
+[2024-09-03T14:45:08.831+0000] {processor.py:157} INFO - Started process (PID=654) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:45:08.834+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:45:08.836+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:45:08.836+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:45:08.844+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:45:08.864+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:45:08.863+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:45:08.873+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:45:08.873+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:45:08.901+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.073 seconds
+[2024-09-03T14:45:38.955+0000] {processor.py:157} INFO - Started process (PID=655) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:45:38.957+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:45:38.960+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:45:38.960+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:45:38.970+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:45:38.992+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:45:38.991+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:45:39.004+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:45:39.004+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:45:39.020+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.068 seconds
+[2024-09-03T14:46:09.086+0000] {processor.py:157} INFO - Started process (PID=663) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:46:09.087+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:46:09.089+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:46:09.089+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:46:09.095+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:46:09.114+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:46:09.113+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:46:09.124+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:46:09.124+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:46:09.140+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.057 seconds
+[2024-09-03T14:46:39.193+0000] {processor.py:157} INFO - Started process (PID=671) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:46:39.196+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:46:39.200+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:46:39.199+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:46:39.216+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:46:39.259+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:46:39.258+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:46:39.289+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:46:39.289+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:46:39.316+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.128 seconds
+[2024-09-03T14:47:09.406+0000] {processor.py:157} INFO - Started process (PID=679) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:47:09.410+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:47:09.422+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:47:09.422+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:47:09.492+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:47:09.512+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:47:09.512+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:47:09.521+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:47:09.521+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:47:09.533+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.129 seconds
+[2024-09-03T14:47:39.617+0000] {processor.py:157} INFO - Started process (PID=688) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:47:39.621+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:47:39.624+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:47:39.624+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:47:39.633+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:47:39.655+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:47:39.654+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:47:39.664+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:47:39.664+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:47:39.684+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.072 seconds
+[2024-09-03T14:48:09.782+0000] {processor.py:157} INFO - Started process (PID=696) to work on /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:48:09.785+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark-submit-test.py for tasks to queue
+[2024-09-03T14:48:09.788+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:48:09.788+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:48:09.796+0000] {processor.py:839} INFO - DAG(s) dict_keys(['spark-submit-test']) retrieved from /opt/airflow/dags/spark-submit-test.py
+[2024-09-03T14:48:09.835+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:48:09.834+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-09-03T14:48:09.845+0000] {logging_mixin.py:151} INFO - [2024-09-03T14:48:09.845+0000] {dag.py:3696} INFO - Setting next_dagrun for spark-submit-test to None, run_after=None
+[2024-09-03T14:48:09.863+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark-submit-test.py took 0.083 seconds
