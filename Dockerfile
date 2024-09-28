@@ -1,6 +1,6 @@
 FROM python:3.10-bullseye as spark-base
 
-ARG SPARK_VERSION=3.3.1
+ARG SPARK_VERSION=3.5.3
 ARG HADOOP_VERSION=3.3.4
 
 
@@ -40,8 +40,8 @@ RUN curl https://archive.apache.org/dist/hadoop/common/hadoop-${HADOOP_VERSION}/
 FROM spark-base as pyspark
 
 # Install python deps
-COPY requirements/requirements-spark.txt .
-RUN pip3 install -r requirements-spark.txt
+COPY requirements/requirements.txt .
+RUN pip3 install -r requirements.txt
 
 # Set JAVA_HOME environment variable
 ENV JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
@@ -81,8 +81,8 @@ RUN chmod u+x /opt/spark/sbin/* && \
     chmod u+x /opt/spark/bin/*
 
 ENV PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH
-#ENV PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.9.5-src.zip:$PYTHONPATH
 
+# Setup SSH
 RUN ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa && \
   cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys && \
   chmod 600 ~/.ssh/authorized_keys
@@ -90,7 +90,7 @@ RUN ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa && \
 COPY ssh_config ~/.ssh/config
 
 # Copy appropriate entrypoint script
-COPY entrypoint-yarn.sh entrypoint.sh
+COPY entrypoint.sh entrypoint.sh
 RUN chmod +x entrypoint.sh
 
 EXPOSE 22

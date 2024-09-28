@@ -22,12 +22,9 @@ then
   done
   echo "Created /spark-logs hdfs dir"
   hdfs dfs -mkdir -p /opt/spark/data
-  echo "Created /opt/spark/data hdfs dir"
-
-
-  # copy the data to the data HDFS directory
-  hdfs dfs -copyFromLocal /opt/spark/data/* /opt/spark/data
-  hdfs dfs -ls /opt/spark/data
+  hdfs dfs -mkdir -p /opt/spark/spark-scripts
+  echo "Created /opt/spark/data and /opt/spark/spark-scripts hdfs dir"
+  
 
 elif [ "$SPARK_WORKLOAD" == "worker" ];
 then
